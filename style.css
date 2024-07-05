@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #54378e;
+    /* color: #fff; */
+}
+section .text{
+        position: relative;
+        text-align: center;
+        color: rgba(0, 255, 255, 0.751);
+        margin: 4px;
+        max-width: 650px;
+}
+section .text span{
+    position: relative;
+    display: inline-block;
+}
